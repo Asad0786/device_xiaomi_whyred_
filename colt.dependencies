@@ -1,0 +1,36 @@
+[
+  {
+    "repository": "AICP/kernel_xiaomi_whyred",
+    "target_path": "kernel/xiaomi/whyred",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0",
+    "remote": "github"
+  },
+  {
+    "repository": "AICP/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "branch": "lineage-16.0",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_external_ant-wireless_antradio-library",
+    "target_path": "external/ant-wireless/antradio-library",
+    "branch": "lineage-16.0",
+    "remote": "github"
+  },
+  {
+    "repository": "packages_apps_GoogleCameraMod",
+    "target_path": "packages/apps/GoogleCameraMod",
+    "branch": "pie",
+    "remote": "pixel-gitlab"
+  }
+]
