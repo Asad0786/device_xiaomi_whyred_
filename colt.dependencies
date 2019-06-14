@@ -11,7 +11,7 @@
     "remote": "github"
   },
   {
-    "repository": "AICP/proprietary_vendor_xiaomi",
+    "repository": "atulkadian/vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "remote": "github"
   },
