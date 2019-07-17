@@ -26,6 +26,9 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 $(call inherit-product, vendor/colt/common.mk)
 $(call inherit-product, packages/apps/ColtApps/common.mk)
 
+# ColtOS Build Type
+RELEASE_TYPE := COLT_OFFICIAL
+
 #Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 1080x2160
 
@@ -49,3 +52,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := "xiaomi/whyred/whyred:9/PKQ1.180904.001/V10.3.1.0.PEICNXM:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
+
+# Maintainer Prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.colt.maintainer=Atul|Asad
