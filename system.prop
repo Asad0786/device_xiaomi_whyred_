@@ -160,7 +160,7 @@ persist.vendor.radio.atfwd.start=true
 persist.hwc.enable_vds=1
 
 #Increase cached app limit
-ro.vendor.qti.sys.fw.bg_apps_limit=60
+ro.vendor.qti.sys.fw.bg_apps_limit=80
 
 #Settings to enable sensors
 #Device Orientation sensor
