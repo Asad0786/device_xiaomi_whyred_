@@ -54,4 +54,4 @@ TARGET_VENDOR := Xiaomi
 
 # Maintainer Prop
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.colt.maintainer="Atul Kadian"
+    ro.colt.maintainer=Atul|Asad
